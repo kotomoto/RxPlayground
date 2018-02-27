@@ -20,6 +20,13 @@
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@id/get_btn"/>
 
+    <Button
+        android:id="@+id/generate_numbers_btn"
+        android:text="GENERATE NUMBERS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/get_async_btn"/>
+
     <TextView
         android:id="@+id/response_tv"
         android:layout_width="wrap_content"
